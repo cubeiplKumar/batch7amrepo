@@ -22,6 +22,7 @@ class Main {
       e.getStackTrace();
     }
   }
+
   #feature 301 changes done by Vivek
   public static void sampleMethod(int a, int b) throws ArithmeticException{
         System.out.println("Hello, this is sample method");
@@ -29,5 +30,14 @@ class Main {
         System.out.println("c:"+c); // c: 2
    }
 
+
+
+  #feature300 new changes done by Developer :Mahender
+  // reads all data from input.txt
+      sourceFile.read(array);
+
+      // writes all data to newFile
+      destFile.write(array);
+      System.out.println("The input.txt file is copied to newFile.");
 
 }
